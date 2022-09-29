@@ -16,3 +16,4 @@ Imports:
     httr,
     jsonlite,
     methods
+RoxygenNote: 7.2.1

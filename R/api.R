@@ -1,4 +1,3 @@
-# library(jsonlite)
 library(httr)
 
 
@@ -12,9 +11,6 @@ library(httr)
 #'
 #' @examples
 #' fetch_qr("hamza",200*200)
-
-
-
 fetch_qr <- function(name,size){
   if(is.character(name)&&is.numeric(size)){
     main_api <- "https://api.qrserver.com"
