@@ -1,0 +1,25 @@
+---
+title: "lab5"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{lab5}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(lab05)
+```
+
+This code generate qr code for any given name.
+we can give length of specific size for qr length.
+```{r }
+fetch_qr("lab05",200*200)
+```
