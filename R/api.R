@@ -1,5 +1,5 @@
 library(httr)
-
+library(adfExplorer)
 
 #' Fetch_qr
 #'
@@ -11,12 +11,15 @@ library(httr)
 #'
 #' @examples
 #' fetch_qr("hamza",200*200)
+
 fetch_qr <- function(name,size){
   if(is.character(name)&&is.numeric(size)){
     main_api <- "https://api.qrserver.com"
   parameters <- "/v1/create-qr-code/?size="
   data <- httr::GET(url = paste0(main_api, parameters,size,"&data=" ,name))
-  print(data$content)
+  bitmap <- rawToBitmap(data$content)
+  return(bitmap)
+
   }
   else
   {
