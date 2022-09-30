@@ -12,7 +12,7 @@ fetch_qr(name, size)
 \item{size}{a numeric}
 }
 \value{
-raw data for qr
+A Vector
 }
 \description{
 Fetch_qr
