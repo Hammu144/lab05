@@ -1,5 +1,4 @@
 library(httr)
-library(adfExplorer)
 
 #' Fetch_qr
 #'
@@ -17,8 +16,8 @@ fetch_qr <- function(name,size){
     main_api <- "https://api.qrserver.com"
   parameters <- "/v1/create-qr-code/?size="
   data <- httr::GET(url = paste0(main_api, parameters,size,"&data=" ,name))
-  bitmap <- adfExplorer::rawToBitmap(data$content)
-  return(bitmap)
+
+  return(data$content)
 
   }
   else
