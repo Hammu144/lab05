@@ -1,7 +1,7 @@
 library(httr)
 
 #' Fetch_qr
-#'
+#' @description generating qr code for different characters provided by users.
 #' @param name a string
 #' @param size a numeric
 #'

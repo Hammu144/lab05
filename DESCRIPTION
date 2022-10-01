@@ -2,8 +2,12 @@ Package: lab05
 Type: Package
 Title: Qr code generator
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Authors@R: 
+    c( person("hamza", "munir", , "hamzamunir00@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID")), 
+            person("collins", "sklinsmann", , "collinsklinsmann@gmail.com", role = "ctb",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+           )
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: MIT + file LICENSE
@@ -15,7 +19,6 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
-    adfExplorer,
-    httr
+    httr,
 RoxygenNote: 7.2.1
 VignetteBuilder: knitr
