@@ -25,3 +25,4 @@ fetch_qr <- function(name,size){
     stop("stop")
   }
 }
+

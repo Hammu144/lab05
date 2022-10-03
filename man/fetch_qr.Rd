@@ -15,7 +15,7 @@ fetch_qr(name, size)
 A Vector
 }
 \description{
-Fetch_qr
+generating qr code for different characters provided by users.
 }
 \examples{
 fetch_qr("hamza",200*200)
