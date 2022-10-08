@@ -1,5 +1,5 @@
 #' qr app
-#'
+#' @description  bankend part of app where all executions happen.
 #' @param input from user
 #' @param output wr we get
 #'
@@ -26,3 +26,5 @@ server <-  function(input, output) {
 
 
 }
+
+

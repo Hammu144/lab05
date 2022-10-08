@@ -18,8 +18,20 @@ knitr::opts_chunk$set(
 library(lab05)
 ```
 
+# Discription
+
+Using api I have build an app which will take input from user and will return us qr code for the specific entry from user.
+
+
+
+# fetch_qr 
+
 This code generate qr code for any given name.
 we can give length of specific size for qr length.
+it has two arguments one is any character from user and other is size of qr we want to get.
+
 ```{r }
 fetch_qr("lab05",200*200)
 ```
+
+

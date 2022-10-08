@@ -15,5 +15,5 @@ server(input, output)
 app
 }
 \description{
-qr app
+bankend part of app where all executions happen.
 }

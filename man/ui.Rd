@@ -2,7 +2,7 @@
 % Please edit documentation in R/ui.R
 \name{ui}
 \alias{ui}
-\title{data from user}
+\title{Data from user}
 \usage{
 ui()
 }
@@ -10,5 +10,5 @@ ui()
 user interface
 }
 \description{
-data from user
+here we are going to get information from user.
 }

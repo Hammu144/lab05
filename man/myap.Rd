@@ -6,6 +6,9 @@
 \usage{
 myap()
 }
+\value{
+visual
+}
 \description{
-App
+This is my app which will give visual look.
 }

@@ -1,10 +1,9 @@
-#' data from user
-#'
+#' Data from user
+#' @description here we are going to get information from user.
 #' @return user interface
 #' @export
 #'
 #' @examples
-
 ui <- function(){
   shiny::fluidPage(
     shiny::textAreaInput("user_input", "Enter your text", value = "defual" ),
