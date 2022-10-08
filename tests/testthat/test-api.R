@@ -18,5 +18,16 @@ testthat:: test_that("expecting value", {
 
 })
 
+testthat:: test_that("not a numeric", {
+  expect_error(fetch_qr(TRUE,"aksjsck"))
+  expect_error(fetch_qr(TRUE,"anyt"))
 
+})
+
+
+testthat:: test_that("not a string", {
+  throws_error(fetch_qr(ham, 150*150),  throws_error("not a string"))
+  throws_error(fetch_qr(, 150*150),  throws_error("not a string"))
+
+})
 

@@ -18,7 +18,7 @@ server <-  function(input, output) {
     a <-  png::readPNG(qr_data, native = FALSE, info = FALSE)
     b <-  matrix(a, nrow=150, byrow = TRUE)
 
-    heatmap(b, Rowv = NA,
+    stats::heatmap(b, Rowv = NA,
             Colv = NA, scale = "none", col = c("black", "white"),
             labRow = "", labCol = "")
 

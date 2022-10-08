@@ -20,12 +20,14 @@ library(lab05)
 
 # Discription
 
-Using api I have build an app which will take input from user and will return us qr code for the specific entry from user.
+Using api I have build an app which will take input from user and will return us qr code for the specific entry from user.for shinny app it is intracrtion between user and web with the help of Ui and server we can build our app.
+
 
 
 
 # fetch_qr 
-
+there's only one function for main file rest for app which is ui and server 
+and last one is for my app.
 This code generate qr code for any given name.
 we can give length of specific size for qr length.
 it has two arguments one is any character from user and other is size of qr we want to get.
