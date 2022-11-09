@@ -80,3 +80,5 @@ when we run this we will get binary representation of qr here but with the help 
 When you click on run app You will see a page where there will be a letter defual and in box if u write anything it will shown up in the form of Qr code.
 
 we can get qr code of any character or word from this app.
+this app happen with the help of a api well call a api whichh convert oiur character into qr with the help of qr fatch and we can make 100000 request in one minute on respective api.
+
