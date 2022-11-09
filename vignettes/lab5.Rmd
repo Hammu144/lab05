@@ -36,7 +36,7 @@ it has two arguments one is any character from user and other is size of qr we w
 fetch_qr("lab05",200*200)
 ```
 
-#Shinny App
+Shinny App
 
 with the help of api we are trying to generate Qr code one simply can writen anything to get qr code.
 
