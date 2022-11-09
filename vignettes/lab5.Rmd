@@ -76,4 +76,7 @@ myap <- function(){
 }
 ```
 
-when we run this we will get binary representaion of qr here but with the help of api we can generate it.
+when we run this we will get binary representation of qr here but with the help of api we can generate it.
+When you click on run app You will see a page where there will be a letter defual and in box if u write anything it will shown up in the form of Qr code.
+
+we can get qr code of any character or word from this app.
